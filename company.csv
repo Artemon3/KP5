@@ -1,0 +1,11 @@
+employee_id,company_name,open_vacancies,url_vacancies
+4351689,2GIS (ООО 2ГИС-Ноябрьск),3,https://api.hh.ru/vacancies?employer_id=4351689
+10461759,Srvs-Tron,35,https://api.hh.ru/vacancies?employer_id=10461759
+6105511,Завод Сибит,38,https://api.hh.ru/vacancies?employer_id=6105511
+581458,PepsiCo,665,https://api.hh.ru/vacancies?employer_id=581458
+9282106,SpaceHub agency,1,https://api.hh.ru/vacancies?employer_id=9282106
+2251342,Мой Софт,5,https://api.hh.ru/vacancies?employer_id=2251342
+8620,Rambler&Co,50,https://api.hh.ru/vacancies?employer_id=8620
+802301,БелАЗ,4,https://api.hh.ru/vacancies?employer_id=802301
+1413754,Азот-Взрыв,231,https://api.hh.ru/vacancies?employer_id=1413754
+3935561,ТД АСК,8,https://api.hh.ru/vacancies?employer_id=3935561
