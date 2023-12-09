@@ -27,7 +27,7 @@ if __name__ == '__main__':
     elif user_input == '4':
         print(db_work.get_vacancies_with_higher_salary(name_db, conf))
     elif user_input == '5':
-        user_work = input(f'Введите слово, по которому нужно найти вакансию')
+        user_work = input(f'Введите слово, по которому нужно найти вакансию: ')
         print(db_work.get_vacancies_with_keyword(name_db, conf, user_work))
     else:
         print(f'Такого варианта нет, мы работаем над этим)')
