@@ -50,7 +50,6 @@ class DBmanager:
         conn = psycopg2.connect(dbname=db_name, **params)
         conn.autocommit = True
         cursor = conn.cursor()
-        cursor.execute(f'SELECT vacancy_name FROM vacancy '
-                       f'WHERE vacancy_name IN ({word})')
+        cursor.execute(f"SELECT * FROM vacancy WHERE vacancy_name LIKE '%{word}%'")
         rows = cursor.fetchall()
         return rows
